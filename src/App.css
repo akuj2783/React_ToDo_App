@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+  background-color: #5c78d3;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size:20px;
+  font-weight: 900;
+}
+/* .first-ToDo{
+  padding-left: 40%;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.first-ToDo>button{
+  font-size: 30px;
+  border-radius:8px;
+  padding: 20px;
+  background-color: rgba(38, 99, 190, 0.733);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.first-ToDo>button:hover{
+  background-color: rgba(19, 82, 177, 0.555);
+} */
+.new-toDo>input{
+  margin-left: 20%;
+  width: 50%;
+  height:50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #cdced186;
+  font-size: larger;
+  vertical-align: bottom;
+}
+.add-btn{
+  width: 100px;
+  height:50px;
+  border-radius: 8px;
+  border: none;
+  font-size:20px;
+  font-weight:600;
+  text-align: center;
+  color: white;
+  background-color: #5c78d3;
+  margin-left: 5px;
+  vertical-align: bottom;
+}
+.add-btn:hover{
+  cursor: pointer;
+}
+.new-toDo{
+  /* background-color: yellow; */
+  margin-top: 30px;
+  margin-bottom:5px;
+
+}
+.search-form{
+  margin-bottom:50px;
+}
+.search-form>input{
+  margin-left: 20%;
+  width: 58%;
+  height:50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #cdced186;
+  font-size: larger;
+  vertical-align: bottom;
+}
+.listItems{
+  display: flex;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 5%;
+  justify-content: space-between;
+  background-color: #b8c0db;
+  padding: 10px;
+  padding-left:0;
+  border-radius: 5px;
+  color: rgb(9, 3, 61);
+  font-size: 17px;
+  font-weight: 600;
+}
+.edit-btn,.delete-btn{
+  width: 55px;
+  height:30px;
+  border-radius: 8px;
+  border: none;
+  font-size:13px;
+  font-weight:500;
+  text-align: center;
+  color: white;
+  background-color: #7d6ad3;
+  margin-left: 5px;
+  vertical-align: bottom;
+}
+.edit-btn:hover{
+  cursor:pointer;
+  background-color: #624fbbd3;
+  color: rgba(238, 235, 235, 0.877);
+}
+.delete-btn:hover{
+  cursor:pointer;
+  background-color: #624fbbd3;
+  color: rgb(167, 166, 166);
+}
+.checkbox{
+  width: 30px;
+  height:30px;
+
+  align-self: center;
+}
+.checkbox:hover{
+  cursor: pointer;
+}
+.item-text:hover{
+  cursor: pointer;
+}
+.footer {
+  display: grid;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:50px;
+  background-color: #2b328f7c;
+  color: rgb(22, 20, 20);
+  font-size: larger;
+  font-weight: 600;
+  text-align: center;
+}
+.footer>p{
+  position:fixed;
+  align-items: flex-end;
+  font-size: small;
+  font-weight: 300;
+  color: rgb(90, 87, 87);
+}
